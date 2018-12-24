@@ -1,0 +1,17 @@
+server:
+  port: 7101
+spring:
+  application:
+    name: upload-7101
+  servlet:
+    multipart:
+      max-file-size: 5MB # 限制文件上传的大小
+
+fdfs:
+  so-timeout: 1501
+  connect-timeout: 601
+  thumb-image: # 缩略图
+    width: 60
+    height: 60
+  tracker-list: # tracker地址
+    - 10.7.1.222:22122
