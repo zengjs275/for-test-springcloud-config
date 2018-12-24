@@ -1,0 +1,10 @@
+server:
+  port: 7100
+spring:
+  application:
+    name: config-7100
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/zengjs275/for-test-springcloud-config.git
