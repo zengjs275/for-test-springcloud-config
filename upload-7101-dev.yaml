@@ -11,7 +11,7 @@ spring:
       host: 10.7.1.222
       username: root
       password: root
-      virtual-host: all
+      virtual-host: /
 
 fdfs:
   so-timeout: 1501
