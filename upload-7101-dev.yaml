@@ -6,6 +6,12 @@ spring:
   servlet:
     multipart:
       max-file-size: 5MB # 限制文件上传的大小
+   
+  rabbitmq:
+      host: 10.7.1.222
+      username: root
+      password: root
+      virtual-host: all
 
 fdfs:
   so-timeout: 1501
